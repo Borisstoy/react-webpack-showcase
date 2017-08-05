@@ -1,7 +1,7 @@
 import React from 'react';
 
 const data = {
-  'cu': {
+  'uk': {
     'name': 'Cuba',
     'icon': 'flag-cu.png',
   },
@@ -17,7 +17,7 @@ const data = {
     'name': 'Netherlands',
     'icon': 'flag-nl.png',
   },
-  'uz': {
+  'sw': {
     'name': 'Uzbekistan',
     'icon': 'flag-uz.png',
   }

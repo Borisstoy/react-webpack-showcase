@@ -1,13 +1,16 @@
 import React from 'react';
-import AthletePreview from './AthletePreview';
-import athletes from '../data/athletes';
+import ArtistPreview from './ArtistPreview';
+import artists from '../data/artists';
 
 export default class IndexPage extends React.Component {
   render() {
     return (
       <div className="home">
-        <div className="athletes-selector">
-          {athletes.map(athleteData => <AthletePreview key={athleteData.id} {...athleteData} />)}
+        <div className="artists-selector">
+          {artists.map(artistData => <ArtistPreview key={artistData.id} {...artistData} />)}
+        </div>
+        <div className="intro">
+          <p>Intro Placeholder</p>
         </div>
       </div>
     );

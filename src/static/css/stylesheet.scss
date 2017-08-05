@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Cousine');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  height: 100vh;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Cousine", arial, sans-serif;
+}
+
+a, p, li, ul, span, section {
+  font-family: "Cousine", arial, sans-serif;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+\::selection {
+  background: $light-grey;
+}
+
+\::-moz-selection {
+  background: $light-grey;
+}
+
+ul, li, a {
+  text-decoration: none;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+  &:hover, &:active, &:focus {
+      text-decoration: none!important
+      outline: none!important
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.clearix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.home {
+  height: 100vh;
+  width: 100%;
+}
+
+.intro {
+  width: auto;
+  margin-left: 300px;
+}
+
+
+.artists-selector {
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  width: 300px;
+  border-right: 1px solid #eaeaea;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  img {
+    width: 50px;
+  }
+}
+
+.artists-selector::-webkit-scrollbar {
+  display: none;
+}
+
+.artists-menu {
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  width: 300px;
+  border-right: 1px solid #eaeaea;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  img {
+    width: 50px;
+  }
+}
+
+.artists-menu::-webkit-scrollbar {
+  display: none;
+}
+
+.artist {
+  width: auto;
+  margin-left: 300px;
+  padding: 2em
+}
+
+
