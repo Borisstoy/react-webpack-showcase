@@ -7,7 +7,7 @@ export default class ArtistPreview extends React.Component {
       <Link to={`/artist/${this.props.id}`}>
         <div className="artist-preview">
           <img src={`img/${this.props.image}`}/>
-          <h2 className="name">{this.props.name}</h2>
+          <h3 className="name">{this.props.name}</h3>
           <span className="medals-count"><img src="/img/medal.png"/> {this.props.medals.length}</span>
         </div>
       </Link>

@@ -29,7 +29,8 @@ export default class ArtistPage extends React.Component {
           </section>
           <section className="medals">
             <p>Winner of <strong>{artist.medals.length}</strong> medals:</p>
-            // <p>{artist.description}</p>
+            <p>{artist.description}</p>
+            <p>{artist.url}</p>
             <ul>{
               artist.medals.map((medal, i) => <Medal key={i} {...medal}/>)
             }</ul>
