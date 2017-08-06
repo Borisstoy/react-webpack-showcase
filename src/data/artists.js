@@ -66,10 +66,10 @@ const artists = [
       { 'year': '2007', 'type': 'G', 'city': 'Rio de Janeiro', 'event': 'World Championships', 'category': '-63kg' },
     ],
     'description': "Minilogue is a Scandinavian melodic Techno music group consisting of Sebastian Mullaert and Marcus Henriksson. The name is a blend of minimal (the musical style) and dialogue, which refers to music as a form of communication. Beside their music production as Minilogue, they were both involved in the group Son Kite,[ Trimatic and IMPS (with Ian Chaplin and Philip Rex), Since 2014, their collaboration as Minilogue has ended.",
-    'url': [
-      "https://www.youtube.com/watch?v=gQ-fydM1nt0",
-      "https://www.youtube.com/watch?v=goDd02TTxBA",
-      "https://www.youtube.com/watch?v=nWnUuosQwZY"
+    'urls': [
+      {'link': "https://www.youtube.com/watch?v=XZznUiv1Q5s&list=RD3kTCppaVUBo&index=20"},
+      {'link': "https://www.youtube.com/watch?v=goDd02TTxBA"},
+      {'link': "https://www.youtube.com/watch?v=nWnUuosQwZY"}
     ]
   }
 
