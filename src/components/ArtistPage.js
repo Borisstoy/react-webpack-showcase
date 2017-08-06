@@ -4,6 +4,7 @@ import NotFoundPage from './NotFoundPage';
 import ArtistsMenu from './ArtistsMenu';
 import Medal from './Medal';
 import Flag from './Flag';
+import MusicPLayer from './MusicPLayer';
 import artists from '../data/artists';
 
 export default class ArtistPage extends React.Component {
@@ -25,8 +26,11 @@ export default class ArtistPage extends React.Component {
           </div>
           <section className="description">
             Olympic medalist from <strong><Flag code={artist.country} showName="true"/></strong>,
-            born in {artist.birth} (Find out more on <a href={artist.link} target="_blank">Wikipedia</a>).
+            born in {artist.birth} (Find out more on <a href={artist.link} target="_blank"></a>).
           </section>
+          <div> {
+            artist.urls.map((url, i) => <MusicPLayer key={i} {...url} />)
+          }</div>
           <section className="medals">
             <p>Winner of <strong>{artist.medals.length}</strong> medals:</p>
             <p>{artist.description}</p>

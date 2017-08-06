@@ -32,10 +32,10 @@ const artists = [
       { 'year': '2007', 'type': 'G', 'city': 'Rio de Janeiro', 'event': 'World Championships', 'category': '-63kg' },
     ],
     'description': "Richard David James (born 18 August 1971), best known by his recording alias Aphex Twin, is an Irish electronic musician, known for his influential and idiosyncratic work in styles such as ambient techno and IDM in the 1990s, for which he won widespread critical acclaim. He is also the co-founder of Rephlex Records with Grant Wilson-Claridge. Initially releasing acid techno music under aliases such as AFX and Polygon Window, James first received widespread acclaim for his 1992 album Selected Ambient Works 85-92. He rose to mainstream popularity with his 1997 EP Come to Daddy and his 1999 single 'Windowlicker'. After a period of relative inactivity following the release of his 2001 album Drukqs, James returned in 2014 with a new album titled Syro, which won him a Grammy Award for Best Dance/Electronic Album.",
-    'url': [
-      "https://www.youtube.com/watch?v=gQ-fydM1nt0",
-      "https://www.youtube.com/watch?v=goDd02TTxBA",
-      "https://www.youtube.com/watch?v=nWnUuosQwZY"
+    'urls': [
+      {'link': "https://www.youtube.com/watch?v=gQ-fydM1nt0"},
+      {'link': "https://www.youtube.com/watch?v=goDd02TTxBA"},
+      {'link': "https://www.youtube.com/watch?v=nWnUuosQwZY"}
     ]
   },
 
