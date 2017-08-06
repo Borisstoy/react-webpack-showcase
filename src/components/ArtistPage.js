@@ -6,6 +6,7 @@ import Medal from './Medal';
 import Flag from './Flag';
 import MusicPLayer from './MusicPLayer';
 import artists from '../data/artists';
+import ReactPlayer from 'react-player';
 
 export default class ArtistPage extends React.Component {
   render() {
@@ -28,9 +29,6 @@ export default class ArtistPage extends React.Component {
             Olympic medalist from <strong><Flag code={artist.country} showName="true"/></strong>,
             born in {artist.birth} (Find out more on <a href={artist.link} target="_blank"></a>).
           </section>
-          <div> {
-            artist.urls.map((url, i) => <MusicPLayer key={i} {...url} />)
-          }</div>
           <section className="medals">
             <p>Winner of <strong>{artist.medals.length}</strong> medals:</p>
             <p>{artist.description}</p>
@@ -39,6 +37,9 @@ export default class ArtistPage extends React.Component {
               artist.medals.map((medal, i) => <Medal key={i} {...medal}/>)
             }</ul>
           </section>
+          <div> {
+            artist.urls.map((url, i) => <MusicPLayer key={i} {...url} />)
+          }</div>
         </div>
       </div>
     );

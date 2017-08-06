@@ -11,6 +11,7 @@ export default class ArtistsMenu extends React.Component {
         {this.props.artists.map(menuArtist => {
           return <Link key={menuArtist.id} to={`/artist/${menuArtist.id}`} activeClassName="active">
             {menuArtist.name}
+            <img src={`img/${menuArtist.image}`}/>
           </Link>;
         })}
       </nav>
