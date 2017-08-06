@@ -4,7 +4,6 @@ import Layout from './components/Layout';
 import IndexPage from './components/IndexPage';
 import ArtistPage from './components/ArtistPage';
 import NotFoundPage from './components/NotFoundPage';
-import ReactPlayer from 'react-player';
 
 const routes = (
   <Route path="/" component={Layout}>
