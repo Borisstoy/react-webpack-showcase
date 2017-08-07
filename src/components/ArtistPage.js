@@ -37,9 +37,6 @@ export default class ArtistPage extends React.Component {
               artist.medals.map((medal, i) => <Medal key={i} {...medal}/>)
             }</ul>
           </section>
-          <div> {
-            artist.urls.map((url, i) => <MusicPLayer key={i} {...url} />)
-          }</div>
         </div>
       </div>
     );
