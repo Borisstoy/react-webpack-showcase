@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
 
 export default class MusicPLayer extends React.Component {

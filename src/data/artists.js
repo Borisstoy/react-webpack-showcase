@@ -101,8 +101,8 @@ const artists = [
     ],
     'description': "David Moufang is a German ambient techno musician. He records with his partner, Jonas Grossmann as Deep Space Network project and his solo releases as Move D. His other projects include Earth to Infinity, Reagenz, Koolfang, and Conjoint.",
     'urls': [
-      {'link': "https://www.google.ca/url?sa=t&rct=j&q=&esrc=s&source=video&cd=2&cad=rja&uact=8&ved=0ahUKEwiLi8PBvsbVAhUS5mMKHeFKBdUQtwIILDAB&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DBxvBk_dSrKQ&usg=AFQjCNGkbthbnvB8UZrqGNeTMf_JX7Hh7A"},
-      {'link': "https://www.google.ca/url?sa=t&rct=j&q=&esrc=s&source=video&cd=7&cad=rja&uact=8&ved=0ahUKEwiLi8PBvsbVAhUS5mMKHeFKBdUQtwIIRzAG&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DHJOPyZTwg78&usg=AFQjCNEHlyjm4-GFUuk-W45d0R96kAVM_g"},
+      {'link': "https://www.youtube.com%2Fwatch%3Fv%3DBxvBk_dSrKQ&usg=AFQjCNGkbthbnvB8UZrqGNeTMf_JX7Hh7A"},
+      {'link': "https://www.youtube.com%2Fwatch%3Fv%3DHJOPyZTwg78&usg=AFQjCNEHlyjm4-GFUuk-W45d0R96kAVM_g"},
       {'link': "https://www.youtube.com/watch?v=5XQbGHG8gVw"}
     ]
   }

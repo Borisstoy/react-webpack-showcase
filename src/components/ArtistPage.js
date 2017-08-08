@@ -5,6 +5,7 @@ import ArtistsMenu from './ArtistsMenu';
 import Medal from './Medal';
 import Flag from './Flag';
 import artists from '../data/artists';
+import MusicPLayer from './MusicPLayer';
 
 export default class ArtistPage extends React.Component {
   render() {
@@ -42,6 +43,11 @@ export default class ArtistPage extends React.Component {
               artist.medals.map((medal, i) => <Medal key={i} {...medal}/>)
             }</ul>
           </section>
+          <div>
+          {
+            artist.urls.map((url, i) => <MusicPLayer key={i} {...url}/>)
+          }
+          </div>
         </div>
       </div>
     );
