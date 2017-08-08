@@ -6,6 +6,7 @@ import Medal from './Medal';
 import Flag from './Flag';
 import artists from '../data/artists';
 import MusicPLayer from './MusicPLayer';
+import ReactPlayer from 'react-player';
 
 export default class ArtistPage extends React.Component {
   render() {
