@@ -69,6 +69,12 @@ ul {
   clear: both;
 }
 
+.logo {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #212121;
+}
+
 .home {
   height: 100vh;
   width: 100%;
@@ -83,31 +89,17 @@ ul {
   height: 100%;
 }
 
-.artists-selector {
-  position: fixed;
-  left: 0;
-  height: 100vh;
-  width: 300px;
-  border-right: 1px solid #eaeaea;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-
 .artist-preview {
   padding: 1em;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #303030;
 }
 
-.artist-preview h3 {
-  color: #212121;
+.artist-preview:hover {
+  background: #303030;
 }
 
 .artist-preview img {
   width: 80px;
-}
-
-.artists-selector::-webkit-scrollbar {
-  display: none;
 }
 
 .artists-menu {
@@ -115,9 +107,13 @@ ul {
   left: 0;
   height: 100vh;
   width: 300px;
-  border-right: 1px solid #eaeaea;
   overflow-y: scroll;
   overflow-x: hidden;
+  background: #232323;
+}
+
+.artists-menu h4 {
+  color: #848484;
 }
 
 .artists-menu img {
@@ -132,10 +128,22 @@ ul {
   width: auto;
   margin-left: 300px;
   padding: 2em;
+  position: absolute;
+  top: 0;
 }
 
 .menuTop {
   height: 50px;
-  width: 300px;
+  width: 115px;
+  text-align: center;
+  padding-right: 2em;
   padding: 1em;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
+
+.menuTop a {
+  color: #848484;
+}
+

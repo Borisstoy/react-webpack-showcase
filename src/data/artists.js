@@ -71,6 +71,40 @@ const artists = [
       {'link': "https://www.youtube.com/watch?v=goDd02TTxBA"},
       {'link': "https://www.youtube.com/watch?v=nWnUuosQwZY"}
     ]
+  },
+
+  {
+    'id': 'moved',
+    'name': 'Move D',
+    'country': 'sw',
+    'birth': '1973',
+    'image': 'move-d.jpg',
+    'cover': 'aphex-cover.png',
+    'link': 'https://aphextwin.warp.net/',
+    'medals': [
+      { 'year': '1992', 'type': 'B', 'city': 'Barcelona', 'event': 'Olympic Games', 'category': '-57kg' },
+      { 'year': '1993', 'type': 'B', 'city': 'Hamilton', 'event': 'World Championships', 'category': '-57kg' },
+      { 'year': '1995', 'type': 'G', 'city': 'Chiba', 'event': 'World Championships', 'category': '-57kg' },
+      { 'year': '1995', 'type': 'G', 'city': 'Mar del Plata', 'event': 'Pan American Games', 'category': '-57kg' },
+      { 'year': '1996', 'type': 'G', 'city': 'Atlanta', 'event': 'Olympic Games', 'category': '-57kg' },
+      { 'year': '1997', 'type': 'S', 'city': 'Osaka', 'event': 'World Championships', 'category': '-57kg' },
+      { 'year': '1999', 'type': 'G', 'city': 'Birmingham', 'event': 'World Championships', 'category': '-57kg' },
+      { 'year': '2000', 'type': 'S', 'city': 'Sydney', 'event': 'Olympic Games', 'category': '-57kg' },
+      { 'year': '2003', 'type': 'G', 'city': 'S Domingo', 'event': 'Pan American Games', 'category': '-63kg' },
+      { 'year': '2003', 'type': 'S', 'city': 'Osaka', 'event': 'World Championships', 'category': '-63kg' },
+      { 'year': '2004', 'type': 'B', 'city': 'Athens', 'event': 'Olympic Games', 'category': '-63kg' },
+      { 'year': '2005', 'type': 'B', 'city': 'Cairo', 'event': 'World Championships', 'category': '-63kg' },
+      { 'year': '2006', 'type': 'G', 'city': 'Cartagena', 'event': 'Central American and Caribbean Games', 'category': '-63kg' },
+      { 'year': '2006', 'type': 'G', 'city': 'Cartagena', 'event': 'Central American and Caribbean Games', 'category': 'Tema' },
+      { 'year': '2007', 'type': 'G', 'city': 'Rio de Janeiro', 'event': 'Pan American Games', 'category': '-63kg' },
+      { 'year': '2007', 'type': 'G', 'city': 'Rio de Janeiro', 'event': 'World Championships', 'category': '-63kg' },
+    ],
+    'description': "David Moufang is a German ambient techno musician. He records with his partner, Jonas Grossmann as Deep Space Network project and his solo releases as Move D. His other projects include Earth to Infinity, Reagenz, Koolfang, and Conjoint.",
+    'urls': [
+      {'link': "https://www.google.ca/url?sa=t&rct=j&q=&esrc=s&source=video&cd=2&cad=rja&uact=8&ved=0ahUKEwiLi8PBvsbVAhUS5mMKHeFKBdUQtwIILDAB&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DBxvBk_dSrKQ&usg=AFQjCNGkbthbnvB8UZrqGNeTMf_JX7Hh7A"},
+      {'link': "https://www.google.ca/url?sa=t&rct=j&q=&esrc=s&source=video&cd=7&cad=rja&uact=8&ved=0ahUKEwiLi8PBvsbVAhUS5mMKHeFKBdUQtwIIRzAG&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DHJOPyZTwg78&usg=AFQjCNEHlyjm4-GFUuk-W45d0R96kAVM_g"},
+      {'link': "https://www.youtube.com/watch?v=5XQbGHG8gVw"}
+    ]
   }
 
 ];

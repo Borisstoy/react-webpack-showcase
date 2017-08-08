@@ -5,9 +5,6 @@ export default class ArtistPreview extends React.Component {
   render() {
     return (
       <Link to={`/artist/${this.props.id}`}>
-        <div className="menuTop">
-          <Link to="/">Home</Link>
-        </div>
         <div className="artist-preview">
           <img src={`img/${this.props.image}`}/>
           <h4 className="name">{this.props.name}</h4>
