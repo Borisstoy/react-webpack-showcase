@@ -1,12 +1,12 @@
 import React from 'react';
+import ReactPlayer from 'react-player';
 import { Link } from 'react-router';
+import MusicPLayer from './MusicPLayer';
 import NotFoundPage from './NotFoundPage';
 import ArtistsMenu from './ArtistsMenu';
 import Medal from './Medal';
 import Flag from './Flag';
 import artists from '../data/artists';
-import MusicPLayer from './MusicPLayer';
-import ReactPlayer from 'react-player';
 
 export default class ArtistPage extends React.Component {
   render() {
