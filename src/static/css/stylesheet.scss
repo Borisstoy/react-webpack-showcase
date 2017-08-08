@@ -77,6 +77,10 @@ ul {
 .intro {
   width: auto;
   margin-left: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .artists-selector {
@@ -117,7 +121,7 @@ ul {
 }
 
 .artists-menu img {
-  width: 100px;
+  width: 80px;
 }
 
 .artists-menu::-webkit-scrollbar {
@@ -128,4 +132,10 @@ ul {
   width: auto;
   margin-left: 300px;
   padding: 2em;
+}
+
+.menuTop {
+  height: 50px;
+  width: 300px;
+  padding: 1em;
 }

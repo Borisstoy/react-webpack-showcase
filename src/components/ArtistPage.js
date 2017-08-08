@@ -16,7 +16,11 @@ export default class ArtistPage extends React.Component {
     const headerStyle = { backgroundImage: `url(/img/${artist.cover})` };
     return (
       <div className="artist-full">
-        <ArtistsMenu artists={artists}/>
+        <div className="artists-selector">
+          <div className="home">
+            <ArtistsMenu artists={artists} />
+          </div>
+        </div>
         <div className="artist">
           <header style={headerStyle}/>
           <div className="picture-container">
