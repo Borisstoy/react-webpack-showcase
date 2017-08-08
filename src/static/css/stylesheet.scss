@@ -127,23 +127,28 @@ ul {
 .artist {
   width: auto;
   margin-left: 300px;
-  padding: 2em;
+  padding: 2em 4em 2em 2em;
   position: absolute;
   top: 0;
 }
 
 .menuTop {
   height: 50px;
-  width: 115px;
+  width: 90px;
   text-align: center;
   padding-right: 2em;
   padding: 1em;
   position: fixed;
+  z-index: 999;
   top: 0;
   right: 0;
 }
 
 .menuTop a {
   color: #848484;
+}
+
+.menuTop a:hover {
+  color: #333333;
 }
 
