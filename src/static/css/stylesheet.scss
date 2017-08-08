@@ -72,7 +72,7 @@ ul {
 .logo {
   font-weight: bold;
   text-transform: uppercase;
-  color: #212121;
+  color: #848484;
 }
 
 .home {
@@ -87,6 +87,10 @@ ul {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+.intro p {
+  font-size: 1.3em;
 }
 
 .artist-preview {
@@ -114,10 +118,12 @@ ul {
 
 .artists-menu h4 {
   color: #848484;
+  font-size: .9em;
 }
 
 .artists-menu img {
-  width: 80px;
+  max-width: 70px;
+  clip-path: circle(40px at center);
 }
 
 .artists-menu::-webkit-scrollbar {
