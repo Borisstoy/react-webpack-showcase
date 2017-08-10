@@ -1,3 +1,5 @@
+'use strict';
+
 import path from 'path';
 import { Server } from 'http';
 import Express from 'express';

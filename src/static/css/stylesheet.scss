@@ -69,6 +69,10 @@ ul {
   clear: both;
 }
 
+nav.artists-menu .artist-preview.active {
+  background: #303030;
+}
+
 .logo {
   font-weight: bold;
   text-transform: uppercase;

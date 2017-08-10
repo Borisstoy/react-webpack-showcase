@@ -1,3 +1,5 @@
+'use strict';
+
 import React from 'react';
 import { Link } from 'react-router';
 
@@ -6,7 +8,7 @@ export default class ArtistPreview extends React.Component {
     return (
       <Link to={`/artist/${this.props.id}`}>
         <div className="artist-preview">
-          <div className="artist-img">
+          <div className="artist-img"  activeClassName="active">
             <img src={`img/${this.props.image}`}/>
           </div>
           <h4 className="name">{this.props.name}</h4>
