@@ -1,7 +1,5 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
 import { Link } from 'react-router';
-import MusicPLayer from './MusicPLayer';
 import NotFoundPage from './NotFoundPage';
 import ArtistsMenu from './ArtistsMenu';
 import Medal from './Medal';
@@ -40,9 +38,6 @@ export default class ArtistPage extends React.Component {
             <p>Winner of <strong>{artist.medals.length}</strong> medals:</p>
             <p>{artist.description}</p>
             <p>{artist.url}</p>
-            <ul>{
-              artist.medals.map((medal, i) => <Medal key={i} {...medal}/>)
-            }</ul>
           </section>
           <div>
           {
