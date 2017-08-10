@@ -38,11 +38,11 @@ export default class ArtistPage extends React.Component {
             <p>Winner of <strong>{artist.medals.length}</strong> medals:</p>
             <p>{artist.description}</p>
             <p>{artist.url}</p>
+            <ul>{
+              artist.medals.map((medal, i) => <Medal key={i} {...medal}/>)
+            }</ul>
           </section>
           <div>
-          {
-            artist.urls.map((url, i) => <MusicPLayer key={i} {...url}/>)
-          }
           </div>
         </div>
       </div>
