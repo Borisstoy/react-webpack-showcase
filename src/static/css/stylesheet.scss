@@ -94,15 +94,20 @@ ul {
 }
 
 .artist-preview {
-  padding: 1em;
   border-bottom: 1px solid #303030;
+  display: flex;
+  height: 50px;
 }
 
 .artist-preview:hover {
   background: #303030;
 }
 
-.artist-preview img {
+.artist-img {
+  margin-right: 1rem;
+}
+
+.artist-img img {
   width: 80px;
 }
 
@@ -121,9 +126,8 @@ ul {
   font-size: .9em;
 }
 
-.artists-menu img {
+.artist-img img {
   max-width: 70px;
-  clip-path: circle(40px at center);
 }
 
 .artists-menu::-webkit-scrollbar {
@@ -133,9 +137,16 @@ ul {
 .artist {
   width: auto;
   margin-left: 300px;
-  padding: 2em 4em 2em 2em;
+  padding: 2% 10% 2% 2%;
   position: absolute;
   top: 0;
+  display: flex;
+}
+
+.artist .description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
 }
 
 .menuTop {

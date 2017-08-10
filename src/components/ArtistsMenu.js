@@ -10,7 +10,9 @@ export default class ArtistsMenu extends React.Component {
           return (
             <Link key={artist.id} to={`/artist/${artist.id}`} activeClassName="active">
               <div className="artist-preview">
-                <img src={`/img/${artist.image}`}/>
+                <div className="artist-img">
+                  <img src={`/img/${artist.image}`}/>
+                </div>
                 <h4 className="name">{artist.name}</h4>
               </div>
             </Link>
